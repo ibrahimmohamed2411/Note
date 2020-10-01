@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="25dp"
+    app:cardCornerRadius="15dp"
+
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/tv_note_name"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/roboto_medium"
+
+
+        android:gravity="center_vertical"
+        android:padding="3dp"
+        android:text="@string/tv_note_name"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+
+        android:id="@+id/tv_note"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:fontFamily="@font/crimson_text_italic"
+
+        android:padding="5dp"
+        android:text="when i was young ii used to go "
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_tag"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_tag"
+            android:textColor="@android:color/white"
+
+            android:textSize="20sp" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+

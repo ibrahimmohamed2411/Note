@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="tv_note_name">Note Name Here</string>
+    <string name="tv_tag">tag</string>
+</resources>
